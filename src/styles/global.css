@@ -15,9 +15,7 @@ body {
 }
 
 main {
-  display: grid;
   min-height: calc(100vh - 4rem);
-  place-items: center;
 }
 
 h1 {

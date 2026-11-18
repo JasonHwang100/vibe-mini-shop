@@ -1,11 +1,15 @@
 import Header from '../components/Header.jsx'
+import HeroBanner from '../components/HeroBanner.jsx'
+import ProductSection from '../components/ProductSection.jsx'
+import '../styles/Home.css'
 
 function Home() {
   return (
     <>
       <Header />
-      <main>
-        <h1>미니쇼핑몰 준비 중</h1>
+      <main className="home-main">
+        <HeroBanner />
+        <ProductSection />
       </main>
     </>
   )

@@ -1,0 +1,50 @@
+.hero-banner {
+  display: flex;
+  min-height: 280px;
+  align-items: center;
+  padding: clamp(28px, 6vw, 64px);
+  border-radius: 24px;
+  background: linear-gradient(120deg, #f1f4ec, #e8eee1);
+  box-sizing: border-box;
+}
+
+.hero-banner__content {
+  max-width: 620px;
+}
+
+.hero-banner h1 {
+  margin: 0;
+  color: #26382c;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1.2;
+  word-break: keep-all;
+}
+
+.hero-banner p {
+  margin: 16px 0 28px;
+  color: #59665a;
+  font-size: clamp(0.9375rem, 2vw, 1.0625rem);
+  line-height: 1.6;
+  word-break: keep-all;
+}
+
+.hero-banner__button {
+  min-height: 48px;
+  padding: 0 22px;
+  border: 0;
+  border-radius: 8px;
+  background: #304b37;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero-banner__button:hover {
+  background: #233b2a;
+}
+
+.hero-banner__button:focus-visible {
+  outline: 3px solid #8da78f;
+  outline-offset: 3px;
+}

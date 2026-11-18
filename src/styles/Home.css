@@ -1,0 +1,5 @@
+.home-main {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 40px 0 72px;
+}
